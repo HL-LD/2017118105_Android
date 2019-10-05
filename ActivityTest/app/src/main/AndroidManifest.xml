@@ -9,11 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".helloworld2"
-            android:label="This is helloworld2"></activity>
+        <activity android:name=".helloworld3"
+            android:label="This is helloworld3"
+            ></activity>
+        <activity
+            android:name=".helloworld2"
+            android:label="This is helloworld2"
+            android:launchMode="singleInstance" />
         <activity
             android:name=".helloworld1"
-            android:label="This is helloworld1">
+            android:label="This is helloworld1"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
