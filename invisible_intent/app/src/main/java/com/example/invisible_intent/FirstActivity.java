@@ -40,7 +40,7 @@ public class FirstActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent=new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("geo:99"));
-                startActivity(intent);
+                startActivity(intent); 
             }
         });
     }
