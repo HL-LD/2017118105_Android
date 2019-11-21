@@ -1,0 +1,4 @@
+#1.显示intent按钮跳转活动
+两个活动，活动helloworld1和活动helloworld2之间的跳转
+#2.修改，四种模式之间的跳转
+①standard  ②singleTop   ③singleTask   ④singleInstance之间的跳转
